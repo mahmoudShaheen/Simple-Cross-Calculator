@@ -50,7 +50,7 @@ namespace SimpleCrossCalculator
             return "0";
         }
 
-        public string NumberClickHandler(string numberPressed, string screenText) 
+        public string NumberClickHandler(string screenText, string numberPressed) 
         {
             if (screenText != "0")
                 screenText += numberPressed;
@@ -59,7 +59,7 @@ namespace SimpleCrossCalculator
             return screenText;
         }
 
-        public string OperationClickHandler(string operationPressed, string screenText)
+        public string OperationClickHandler(string screenText, string operationPressed)
         {
             Operation operation = operationDictionary[operationPressed];
 
@@ -71,7 +71,7 @@ namespace SimpleCrossCalculator
             }
             else
             {//call with last operation
-                performOperation(lastOperation, screenText);
+                performOperation(screenText, lastOperation);
                 lastOperation = operation;
             }
             //to set screen to 0 to receive the next number
@@ -88,7 +88,7 @@ namespace SimpleCrossCalculator
             return screenText;
         }
 
-        private void performOperation(Operation operation, string screenText)
+        private void performOperation(string screenText, Operation operation)
         {
             switch (operation)
             {
