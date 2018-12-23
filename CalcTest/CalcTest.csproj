@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Simple Cross Calculator\Simple Cross Calculator.csproj">
+    <ProjectReference Include="..\Simple Cross Calculator\Calculator Library.csproj">
       <Project>{fe496bb8-3b64-4d8b-8614-a165fe36544b}</Project>
-      <Name>Simple Cross Calculator</Name>
+      <Name>Calculator Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

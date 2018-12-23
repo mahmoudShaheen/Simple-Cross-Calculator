@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple Cross Calculator", "Simple Cross Calculator\Simple Cross Calculator.csproj", "{FE496BB8-3B64-4D8B-8614-A165FE36544B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator Library", "Simple Cross Calculator\Calculator Library.csproj", "{FE496BB8-3B64-4D8B-8614-A165FE36544B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest", "CalcTest\CalcTest.csproj", "{E2E4A4E0-8007-4420-B78A-7E30A3598A76}"
 EndProject

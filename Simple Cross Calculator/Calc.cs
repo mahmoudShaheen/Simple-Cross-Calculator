@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SimpleCrossCalculator
+namespace CalculatorLibrary
 {
     public class Calc
     {
